@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+h1 {
+  text-align: center;
+}
+.box {
+  margin: auto;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+p {
+  text-align: left;
+}
