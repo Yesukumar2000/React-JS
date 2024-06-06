@@ -1,0 +1,36 @@
+.containerBlock {
+  border: 2px solid #aaa;
+  margin: 5px;
+}
+
+.videoBlock {
+  width: 100vh;
+  align-items: center;
+  margin: 25px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+h1 {
+  text-align: center;
+}
+.box {
+  margin: auto;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+p {
+  text-align: left;
+}
