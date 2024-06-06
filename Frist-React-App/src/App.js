@@ -17,7 +17,7 @@ function App() {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eius porro eum officia accusantium distinctio! Assumenda beatae, nulla delectus nemo alias eligendi labore sed itaque totam ut. Tenetur, laudantium. Incidunt necessitatibus quibusdam magnam quo, unde cumque ratione molestias nemo quod iusto tempore cupiditate vel beatae at nostrum, perspiciatis obcaecati? Commodi.</p>
       </div>
       <div className="box">
-      <img src='https://media.licdn.com/dms/image/D4D12AQFyPzzwwniaYg/article-cover_image-shrink_720_1280/0/1656051280558?e=1717027200&v=beta&t=O20-iK8wDK-Ra9Dnu9lllnCjMhlq0dekYwFHKkqZBL0' alt="Image3" />
+      <img src='https://miro.medium.com/v2/resize:fit:720/format:webp/1*EyeBipMFitG-ZqvFclL9kA.jpeg' alt="Image3" />
         <h2>Rohit</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eius porro eum officia accusantium distinctio! Assumenda beatae, nulla delectus nemo alias eligendi labore sed itaque totam ut. Tenetur, laudantium. Incidunt necessitatibus quibusdam magnam quo, unde cumque ratione molestias nemo quod iusto tempore cupiditate vel beatae at nostrum, perspiciatis obcaecati? Commodi.</p>
       </div>
