@@ -1,0 +1,70 @@
+.invoiceTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.invoiceTable caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.invoiceTable th,
+.invoiceTable td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.invoiceTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.invoiceTable tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.invoiceTable tbody tr:hover {
+  background-color: rgb(155, 254, 155);
+  transition: background-color 0.1s ease;
+}
+
+.invoiceTable tfoot th,
+.invoiceTable tfoot td {
+  border-top: 2px solid #ddd;
+  font-weight: bold;
+}
+
+.invoiceTable tfoot td[colspan="2"] {
+  text-align: right;
+}
+
+.invoiceTable tfoot td:last-child {
+  color: #12ed6d;
+}
+
+.invoiceTable tfoot td:hover {
+  color: black;
+  background-color: #abfda5;
+}
+.invoiceTable tfoot tr:hover {
+  color: black;
+  background-color: #ebabe6;
+}
+.invoiceTable tbody td:hover {
+  background-color: rgb(255, 213, 136);
+}
+.invoiceTable thead td:hover {
+  background-color: rgb(156, 255, 220);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .invoiceTable th,
+  .invoiceTable td {
+    padding: 8px;
+  }
+}
