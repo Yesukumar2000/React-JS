@@ -1,0 +1,40 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #eff1f1;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.header {
+    color: #57f06b; 
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.subHeader {
+    color: #2c3e50; 
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 10px;
+    color: #34495e; 
+    font-size: 1.2em;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #bdc3c7; 
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: #ecf0f1; 
+    color: #2c3e50;
+}
