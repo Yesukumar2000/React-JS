@@ -1,0 +1,42 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Auto-fit columns with minimum width of 120px */
+  gap: 10px; /* Gap between grid items */
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  grid-column: 1 / -1; /* Span across all columns */
+}
+
+.fruits-list {
+  list-style: none;
+  padding: 0;
+  grid-column: 1 / -1; /* Span across all columns */
+}
+
+button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(61, 189, 172);
+}
+.result {
+  text-align: center;
+  font-size: 18px;
+  grid-column: 1 / -1; /* Span across all columns */
+}
